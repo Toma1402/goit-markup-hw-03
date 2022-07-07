@@ -21,7 +21,9 @@
     <!-- Header section -->
     <header class="header">
       <div class="container header-all">
-        <a class="logo link" href="./index.html" lang="en">Web<span class="studio">Studio</span></a>
+        <a class="logo link header-logo" href="./index.html" lang="en"
+          >Web<span class="studio">Studio</span></a
+        >
         <nav>
           <ul class="header-list list">
             <li class="item">
@@ -33,7 +35,7 @@
             <li class="item"><a class="header-link active link" href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="header-list list">
+        <ul class="header-list list contacts">
           <li class="item">
             <a class="header-mail active link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -54,73 +56,102 @@
       </section>
       <!-- Specificity section -->
       <section class="specificity section">
-        <ul class="main-list list">
-          <li>
-            <h3 class="list-title">Внимание к деталям</h3>
-            <p class="list-text">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="list-title">Пунктуальность</h3>
-            <p class="list-text">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="list-title">Планирование</h3>
-            <p class="list-text">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="list-title">Современные технологии</h3>
-            <p class="list-text">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul class="main-list list">
+            <li class="list-item">
+              <h3 class="list-title">Внимание к деталям</h3>
+              <p class="list-text">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Пунктуальность</h3>
+              <p class="list-text">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Планирование</h3>
+              <p class="list-text">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="list-item">
+              <h3 class="list-title">Современные технологии</h3>
+              <p class="list-text">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- To-do section -->
       <section class="to-do section">
-        <h2 class="to-do-title">Чем мы занимаемся</h2>
-        <ul class="main-list list">
-          <li><img src="./images/hw01-main/box-1.jpg" alt="Вёрстка" width="370" /></li>
-          <li><img src="./images/hw01-main/box-2.jpg" alt="Процесс" width="370" /></li>
-          <li><img src="./images/hw01-main/box-3.jpg" alt="Палитра" width="370" /></li>
-        </ul>
+        <div class="container">
+          <h2 class="to-do-title">Чем мы занимаемся</h2>
+          <ul class="main-list list">
+            <li class="to-do-img">
+              <img src="./images/hw01-main/box-1.jpg" alt="Вёрстка" width="370" />
+            </li>
+            <li class="to-do-img">
+              <img src="./images/hw01-main/box-2.jpg" alt="Процесс" width="370" />
+            </li>
+            <li class="to-do-img">
+              <img src="./images/hw01-main/box-3.jpg" alt="Палитра" width="370" />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Team section -->
       <section class="team section">
-        <h2 class="team-title">Наша команда</h2>
-        <ul class="main-list list">
-          <li>
-            <img src="./images/hw01-main/img.jpg" alt="Designer" width="270" />
-            <h3 class="team-person">Игорь Демьяненко</h3>
-            <p class="position" lang="en">Product Designer</p>
-          </li>
-          <li>
-            <img src="./images/hw01-main/img-(1).jpg" alt="Developer" width="270" />
-            <h3 class="team-person">Ольга Репина</h3>
-            <p class="position" lang="en">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./images/hw01-main/img-(2).jpg" alt="Marketing" width="270" />
-            <h3 class="team-person">Николай Тарасов</h3>
-            <p class="position" lang="en">Marketing</p>
-          </li>
-          <li>
-            <img src="./images/hw01-main/img-(3).jpg" alt="UI Designer" width="270" />
-            <h3 class="team-person">Михаил Ермаков</h3>
-            <p class="position" lang="en">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="main-list list">
+            <li class="team-item">
+              <img class="team-img" src="./images/hw01-main/img.jpg" alt="Designer" width="270" />
+              <h3 class="team-person">Игорь Демьяненко</h3>
+              <p class="position" lang="en">Product Designer</p>
+            </li>
+            <li class="team-item">
+              <img
+                class="team-img"
+                src="./images/hw01-main/img-(1).jpg"
+                alt="Developer"
+                width="270"
+              />
+              <h3 class="team-person">Ольга Репина</h3>
+              <p class="position" lang="en">Frontend Developer</p>
+            </li>
+            <li class="team-item">
+              <img
+                class="team-img"
+                src="./images/hw01-main/img-(2).jpg"
+                alt="Marketing"
+                width="270"
+              />
+              <h3 class="team-person">Николай Тарасов</h3>
+              <p class="position" lang="en">Marketing</p>
+            </li>
+            <li class="team-item">
+              <img
+                class="team-img"
+                src="./images/hw01-main/img-(3).jpg"
+                alt="UI Designer"
+                width="270"
+              />
+              <h3 class="team-person">Михаил Ермаков</h3>
+              <p class="position" lang="en">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <!-- Footer section -->
     <footer class="footer">
       <div class="container">
-        <a class="logo link" href="./index.html" lang="en">Web<span class="studio">Studio</span></a>
+        <a class="logo link footer-logo" href="./index.html" lang="en"
+          >Web<span class="studio">Studio</span>
+        </a>
         <address class="address">
           <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
           <a class="footer-mail active link" href="mailto:info@example.com">info@example.com</a>
