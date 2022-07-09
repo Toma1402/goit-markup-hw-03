@@ -21,6 +21,9 @@ body {
   font-family: var(--main-font);
   color: var(--primary-text-color);
 }
+img {
+  display: block;
+}
 .header {
   border-bottom: 1px solid var(--border);
 }
@@ -182,9 +185,7 @@ body {
 .to-do {
   padding-top: 0;
 }
-.image-block {
-  display: block;
-}
+
 .to-do-img:not(:last-child) {
   margin-right: 30px;
 }
@@ -204,8 +205,6 @@ body {
   margin-right: 30px;
 }
 .team-img {
-  display: block;
-
   margin-bottom: 30px;
 }
 .team-person {
@@ -285,21 +284,39 @@ body {
   overflow: hidden;
 }
 .filter {
-  outline: 1px solid red;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 .cards {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.cards > .card-item {
+  flex-basis: calc(100% / 3 -30px);
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
+.head-descr {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 .portfolio-title {
+  margin: 0;
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 .portfolio-descr {
+  margin: 0;
+
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
