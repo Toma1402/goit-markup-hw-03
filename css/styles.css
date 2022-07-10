@@ -98,8 +98,9 @@ img {
   color: var(--secondary-text-color); /*Специфікація*/
 }
 .header-link {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* main section */
