@@ -13,6 +13,7 @@
   --border: #ececec;
   --secondary-backgr-cl: #f5f4fa;
   --main-btn-hover: #188ce8;
+  --border-portfolio: #eeeeee;
 
   --main-font: 'Roboto', sans-serif;
   --secondaty-font: 'Raleway', sans-serif;
@@ -24,9 +25,7 @@ body {
 img {
   display: block;
 }
-.header {
-  border-bottom: 1px solid var(--border);
-}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -45,6 +44,9 @@ img {
   margin: 0;
 }
 /* header section */
+.header {
+  border-bottom: 1px solid var(--border);
+}
 
 .header-list {
   display: flex;
@@ -72,7 +74,7 @@ img {
 .studio {
   color: var(--black);
 }
-.header-all {
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -95,6 +97,10 @@ img {
 .header-phone {
   color: var(--secondary-text-color); /*Специфікація*/
 }
+.header-link {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /* main section */
 /* hero section */
@@ -105,13 +111,13 @@ img {
 .hero {
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 0;
+  padding-bottom: 200px;
 
   background-color: var(--primary-backgr-cl);
 }
 
 .main-title {
-  width: 696px;
+  max-width: 696px;
   height: 120px;
   margin: 0;
   margin-left: auto;
@@ -133,7 +139,6 @@ img {
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
-  margin-bottom: 200px;
 
   font-family: inherit;
   font-weight: 700;
@@ -205,7 +210,7 @@ img {
   margin-right: 30px;
 }
 .team-img {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .team-person {
   margin: 0;
@@ -213,7 +218,10 @@ img {
 }
 .position {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+.team-info {
+  padding: 10px;
 }
 .team-item {
   border-radius: 0px 0px 4px 4px;
@@ -248,9 +256,11 @@ img {
   margin-bottom: 9px;
 }
 .footer {
+  background-color: var(--primary-backgr-cl);
+}
+.footer .container {
   padding-bottom: 60px;
   padding-top: 60px;
-  background-color: var(--primary-backgr-cl);
 }
 .address {
   display: flex;
@@ -295,7 +305,7 @@ img {
   margin-left: -30px;
 }
 .cards > .card-item {
-  flex-basis: calc(100% / 3 -30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -305,6 +315,8 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  border: 1px solid var(--border-portfolio);
+  border-top: none;
 }
 .portfolio-title {
   margin: 0;
