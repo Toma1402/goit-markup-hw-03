@@ -59,9 +59,7 @@ img {
 }
 
 .header-logo {
-  margin-right: 90px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-right: 93px;
 }
 .logo {
   font-family: var(--secondaty-font);
@@ -210,19 +208,16 @@ img {
 .main-list .team-item:not(:last-child) {
   margin-right: 30px;
 }
-.team-img {
-  margin-bottom: 20px;
-}
+
 .team-person {
   margin: 0;
   margin-bottom: 10px;
 }
 .position {
   margin: 0;
-  margin-bottom: 20px;
 }
 .team-info {
-  padding: 10px;
+  padding: 30px 10px;
 }
 .team-item {
   border-radius: 0px 0px 4px 4px;
@@ -257,12 +252,11 @@ img {
   margin-bottom: 9px;
 }
 .footer {
-  background-color: var(--primary-backgr-cl);
-}
-.footer .container {
   padding-bottom: 60px;
   padding-top: 60px;
+  background-color: var(--primary-backgr-cl);
 }
+
 .address {
   display: flex;
   flex-direction: column;
